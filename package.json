@@ -1,13 +1,13 @@
 {
   "name": "next-js-boilerplate",
-  "author": "Ixartz (https://github.com/ixartz)",
+  "author": "phoenixfusionx (https://github.com/phoenixfusionx)",
   "engines": {
     "node": ">=20"
   },
   "scripts": {
     "dev:spotlight": "npx @spotlightjs/spotlight",
     "dev:next": "next dev --turbopack",
-    "dev": "run-p db-server:file dev:*",
+    "dev": "run-p dev:*",
     "build:next": "next build",
     "build": "run-p db-server:memory build:* --race",
     "start": "next start",
